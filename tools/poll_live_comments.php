@@ -6,7 +6,7 @@ require_once __DIR__ . '/../includes/comment_handler.php';
 // Set these before running, or make them script arguments
 $user_id = 1; //get from your users table
 
-$live_video_id = '1060036896270200'; //← Set This: your_real_facebook_live_video_id  1060802089356012 / 1060036896270200 / 4137130903171862
+$live_video_id = '4137130903171862'; //← Set This: your_real_facebook_live_video_id  1060802089356012 / 1060036896270200 / 4137130903171862
 
 $accessToken = 'EAAItf6x5tvABOx15mTW7QBe9ZA8qlgD6LLGSHPDBGxAKh0iDpfyInPedeZABJ1SpdpoBbKT8Xi6SD3SYi7g8WQSxWQ3It8TpLZCYmNOKitZCeZCZCbZCfZCXhmO2zH0pg0PkrmPGkbUH196xQwxtcfvWkxu7t22Qc8QrYkGL3RJsyApPlZBQkbnacoPeQiyjlZCYBum0T12kr5'; //← Set This: your_long_lived_page_access_token
 
