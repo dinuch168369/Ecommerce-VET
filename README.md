@@ -13,7 +13,7 @@ Create an app -> App name -> choose Other -> Select an app type
 #### Polling Tool
     -tools/poll_live_comments.php: (Optional) A CLI utility to continuously poll Facebook for new comments on a live video and store them.
 #### Public-Facing Pages
-    -public/index.php: User login page (should support both email/password and Facebook login).
+    -public/index.php: User login page (should support both email/password and Facebook login).   
     -public/callback.php: Handles OAuth callback from Facebook, retrieves user info, and logs the user in or registers them.
     -public/dashboard.php: Displays user info, past fetched comments, and allows access to comment-fetching features.
     -public/start.php: Lets logged-in users enter a Facebook Live video ID to start capturing comments.
